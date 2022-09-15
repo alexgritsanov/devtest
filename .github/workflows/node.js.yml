@@ -23,7 +23,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - uses: docker://ghcr.io/kciter/aws-ecr-action@v3
+    - uses: docker://ghcr.io/kciter/aws-ecr-action:latest
       with:
         access_key_id: AKIA5RHLXW4LDPEL4DFD
         secret_access_key: 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
