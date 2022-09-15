@@ -14,7 +14,7 @@ app.use("/", async (req, res) => {
   <h1>Hello!
   Your local IP address: ${networkInterfaces["eth0"][0].address} 
   <h1>
-  
+   
   </div>
     `);
 });
